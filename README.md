@@ -34,6 +34,17 @@
   <a href="https://github.com/T4ECXO/T4ECXO/graphs/contributors"><img src="https://img.shields.io/github/contributors/T4ECXO/T4ECXO?color=green" alt="Contributors" /></a>
 </p>
 
+## GitHub Summary
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=T4ECXO&amp;theme=github_dark" alt="Repositories per language" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=T4ECXO&amp;theme=github_dark" alt="Most used commit language" width="48%" />
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=T4ECXO&amp;theme=github_dark" alt="GitHub stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=T4ECXO&amp;theme=github_dark&amp;timeZone=Asia%2FBangkok" alt="Commits by hour in Bangkok time" width="48%" />
+</p>
+
 ## Contributions
 
 ![3D contribution calendar](./metrics.isocalendar.svg)
