@@ -4,19 +4,35 @@
 
 ## Skills
 
-![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=22D3EE)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=22D3EE)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=22D3EE)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=22D3EE)
-![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=22D3EE)
-![Anaconda](https://img.shields.io/badge/Anaconda-0D1117?style=for-the-badge&logo=anaconda&logoColor=22D3EE)
-![Linux](https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=22D3EE)
-![Arduino](https://img.shields.io/badge/Arduino-0D1117?style=for-the-badge&logo=arduino&logoColor=22D3EE)
-![Autodesk Fusion](https://img.shields.io/badge/Autodesk_Fusion-0D1117?style=for-the-badge)
-[![CiRA CORE](https://img.shields.io/badge/CiRA_CORE-0D1117?style=for-the-badge)](https://www.cira-ai.com/)
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" title="C" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" title="Node.js" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" alt="Jupyter" title="Jupyter" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg" alt="Anaconda" title="Anaconda" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" alt="Arduino" title="Arduino" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch" title="PyTorch" width="42" height="42" />
+  &nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV" title="OpenCV" width="42" height="42" />
+</p>
 
-![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=22D3EE)
-![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=22D3EE)
+<p align="center">
+  <a href="https://github.com/T4ECXO/T4ECXO/stargazers"><img src="https://img.shields.io/github/stars/T4ECXO/T4ECXO?style=social" alt="Stars" /></a>
+  <a href="https://github.com/T4ECXO/T4ECXO/forks"><img src="https://img.shields.io/github/forks/T4ECXO/T4ECXO?style=social" alt="Forks" /></a>
+  <a href="https://github.com/T4ECXO/T4ECXO/pulls"><img src="https://img.shields.io/github/issues-pr/T4ECXO/T4ECXO?label=pull%20requests&amp;color=yellow" alt="Pull requests" /></a>
+  <a href="https://github.com/T4ECXO/T4ECXO/issues"><img src="https://img.shields.io/github/issues/T4ECXO/T4ECXO?color=yellow" alt="Issues" /></a>
+  <a href="https://github.com/T4ECXO/T4ECXO/graphs/contributors"><img src="https://img.shields.io/github/contributors/T4ECXO/T4ECXO?color=green" alt="Contributors" /></a>
+</p>
 
 ## Contributions
 
