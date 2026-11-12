@@ -1,0 +1,31 @@
+name: 3D contribution calendar
+
+on:
+  schedule:
+    - cron: "17 20 * * *" # 03:17 Asia/Bangkok; GitHub may delay scheduled runs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  calendar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Generate 3D calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: T4ECXO
+          template: classic
+          base: ""
+          filename: metrics.isocalendar.svg
+          config_timezone: Asia/Bangkok
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
