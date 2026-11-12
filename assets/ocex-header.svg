@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
 <title id="title">Hi, I'm Ocex</title>
-<desc id="desc">Slowly types Hi, I'm Ocex, one character every 0.7 seconds, with a blinking cursor and a 4-second pause before repeating.</desc>
+<desc id="desc">Slowly types Hi, I'm Ocex, one character every 0.15 seconds, with a blinking cursor and a 2-second pause before repeating.</desc>
 <rect width="1200" height="230" rx="12" fill="#151b23" />
 <rect x="30" y="91" width="11.45" height="11.45" fill="#f0f6fc" />
 <rect x="42" y="103" width="11.45" height="11.45" fill="#f0f6fc" />
 <rect x="54" y="115" width="11.45" height="11.45" fill="#f0f6fc" />
 <rect x="42" y="127" width="11.45" height="11.45" fill="#f0f6fc" />
 <rect x="30" y="139" width="11.45" height="11.45" fill="#f0f6fc" />
-<defs><clipPath id="typing-clip" clipPathUnits="userSpaceOnUse"><rect x="110" y="40" width="0" height="150"><animate attributeName="width" values="0;84;140;182;238;294;322;406;462;546;630;714;798;798" dur="12.5s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000000;0.064000;0.120000;0.176000;0.232000;0.288000;0.344000;0.400000;0.456000;0.512000;0.568000;0.624000;0.680000;1" /></rect></clipPath></defs><g clip-path="url(#typing-clip)"><rect x="110" y="61" width="13.45" height="13.45" fill="#f0f6fc" />
+<defs><clipPath id="typing-clip" clipPathUnits="userSpaceOnUse"><rect x="110" y="40" width="0" height="150"><animate attributeName="width" values="0;84;140;182;238;294;322;406;462;546;630;714;798;798" dur="3.85s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000000;0.051948;0.090909;0.129870;0.168831;0.207792;0.246753;0.285714;0.324675;0.363636;0.402597;0.441558;0.480519;1" /></rect></clipPath></defs><g clip-path="url(#typing-clip)"><rect x="110" y="61" width="13.45" height="13.45" fill="#f0f6fc" />
 <rect x="166" y="61" width="13.45" height="13.45" fill="#f0f6fc" />
 <rect x="110" y="75" width="13.45" height="13.45" fill="#f0f6fc" />
 <rect x="166" y="75" width="13.45" height="13.45" fill="#f0f6fc" />
@@ -121,4 +121,4 @@
 <rect x="866" y="131" width="13.45" height="13.45" fill="#f0f6fc" />
 <rect x="824" y="145" width="13.45" height="13.45" fill="#f0f6fc" />
 <rect x="880" y="145" width="13.45" height="13.45" fill="#f0f6fc" />
-</g><rect x="110" y="62" width="9" height="96" fill="#f0f6fc"><animate attributeName="x" values="110;194;250;292;348;404;432;516;572;656;740;824;908;908" dur="12.5s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000000;0.064000;0.120000;0.176000;0.232000;0.288000;0.344000;0.400000;0.456000;0.512000;0.568000;0.624000;0.680000;1" /><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" calcMode="discrete" /></rect></svg>
+</g><rect x="110" y="62" width="9" height="96" fill="#f0f6fc"><animate attributeName="x" values="110;194;250;292;348;404;432;516;572;656;740;824;908;908" dur="3.85s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.000000;0.051948;0.090909;0.129870;0.168831;0.207792;0.246753;0.285714;0.324675;0.363636;0.402597;0.441558;0.480519;1" /><animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.7s" repeatCount="indefinite" calcMode="discrete" /></rect></svg>
