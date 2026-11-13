@@ -2,30 +2,55 @@ name: 3D contribution calendar
 
 on:
   schedule:
-    - cron: "17 20 * * *" # 03:17 Asia/Bangkok; GitHub may delay scheduled runs
+    - cron: "17 20 * * *" # 03:17 Asia/Bangkok
   workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/metrics.yml
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: profile-metrics
+  group: profile-3d
   cancel-in-progress: false
 
 jobs:
-  calendar:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Generate 3D calendar
-        uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v5
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: T4ECXO
-          template: classic
-          base: ""
-          filename: metrics.isocalendar.svg
-          config_timezone: Asia/Bangkok
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          persist-credentials: false
+      - name: Generate 3D calendar with read-only access
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: profile-3d
+          path: profile-3d-contrib/*.svg
+          if-no-files-found: error
+
+  publish:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: profile-3d
+          path: profile-3d-contrib
+      - name: Commit generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "Update 3D contribution calendar"
+            git push
+          fi
